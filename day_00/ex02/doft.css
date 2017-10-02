@@ -1,0 +1,36 @@
+body{
+	background-color: #505050;
+}
+#Container{
+	background-color: #505050
+	width: 800px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#Header{
+
+}
+
+#NavBar1{
+	padding: 50px;
+	width: 180px;
+	float: left;
+}
+
+#NavBar2{
+	padding: 50px;
+	width: 180px;
+	float: right;
+}
+
+#Content{
+	width: 400px;
+	padding: 10px;
+}
+
+#PopUp{
+	bottom: 200px
+	background-color: #67EC13;
+	color: black;
+}
