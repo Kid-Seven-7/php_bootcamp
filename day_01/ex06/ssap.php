@@ -1,10 +1,9 @@
 #!/usr/bin/php
 <?php
-foreach (array_slice($argv, 1) as $key) {
-	$param = explode(' ',$key);
-	for ($i=0; $param[$i]  ; $i++) {
-
-	}
-	}
-	print_r($result);
+$str = implode(" ", $argv);
+$str = explode(" ", $str);
+unset($str[0]);
+sort($str);
+foreach($str as $arr_str)
+	echo("$arr_str\n");
 ?>
