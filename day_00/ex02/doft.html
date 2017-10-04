@@ -9,31 +9,53 @@
 	<BODY>
 		<DIV ID="Container">
 			<DIV ID="Header">
-				<IMG SRC="resources/day_of_the_42.png" width="600px" height="180px"/>
-				<IMG SRC="resources/loupe.png"/>
-				<IMG SRC="resources/close.png" width="10px" height="10px"/>
-				<IMG SRC="resources/reload.png" width="10px" height="10px"/>
+				<IMG style="position:absolute;top:10px;"SRC="resources/day_of_the_42.png" width="450px" height="130px"/>
+				<IMG style="position:absolute;top:25px;right:40px"SRC="resources/loupe.png" alt="magnifying glass"/>
+				<A href="http://www.relaischateaux.com.">
+					<IMG style="position:absolute;top:120px;right:20px"SRC="resources/close.gif" title="Disconnect"alt="close" width="20px" height="20px"/>
+				</A>
+				<A href="http://www.disney.com">
+					<IMG style="position:absolute;top:10px;right:20px"SRC="resources/reload.png" title="Start from the beginning"alt="reload" width="20px" height="20px"/>
+				</A>
 			</DIV>
+			<BR />
 			<DIV ID="NavBar1">
-				<IMG style="position:absolute;top:200px;left:50px"SRC="resources/arrow.png" width="50px" height="50px"/>
-				<IMG style="position:absolute;top:260px;left:50px"SRC="resources/main.png" width="50px" height="50px"/>
-				<IMG style="position:absolute;top:320px;left:50px"SRC="resources/oeil.png" width="50px" height="50px"/>
-				<IMG style="position:absolute;top:380px;left:50px"SRC="resources/outil.png" width="50px" height="50px"/>
-				<IMG style="position:absolute;top:440px;left:50px"SRC="resources/chat-icon.png" width="50px" height="50px"/>
+				<IMG style="position:absolute;top:20px;left:30px"SRC="resources/arrow.png" title="Advance"alt="Advance" width="70px" height="70px"/>
+				<IMG style="position:absolute;top:100px;left:30px"SRC="resources/main.png" title="Take"alt="Take" width="70px" height="70px"/>
+				<IMG class="Bordered"style="position:absolute;top:190px;left:30px;"SRC="resources/oeil.png" border="5" title="Look"alt="Look" width="70px" height="70px"/>
+				<IMG style="position:absolute;top:270px;left:30px"SRC="resources/outil.png" title="Use"alt="Use" width="70px" height="70px"/>
+				<IMG style="position:absolute;top:350px;left:30px"SRC="resources/chat-icon.png" title="Speak"alt="Speak" width="70px" height="70px"/>
 			</DIV>
 			<DIV ID="NavBar2">
-				<IMG style="position:absolute;top:200px;right:50px"SRC="resources/book.png" width="50px" height="50px"/>
-				<IMG style="position:absolute;top:260px;right:50px"SRC="resources/towel.png" width="50px" height="50px"/>
-				<IMG style="position:absolute;top:320px;right:50px"SRC="resources/brick.jpg" width="50px" height="50px"/>
+				<IMG style="position:absolute;top:20px;right:30px"SRC="resources/book.png" title="book" alt="book" width="70px" height="100px"/>
+				<IMG style="position:absolute;top:120px;right:30px"SRC="resources/towel.png" title="towel" alt="towel" width="70px" height="70px"/>
+				<IMG style="position:absolute;top:200px;right:10px"SRC="resources/brick.jpg" title="brick" alt="brick" width="40px" height="40px"/>
+				<IMG style="position:absolute;top:240px;right:10px"SRC="resources/brick.jpg" title="brick" alt="brick" width="40px" height="40px"/>
+				<IMG style="position:absolute;top:200px;right:30px"SRC="resources/brick.jpg" title="brick" alt="brick" width="40px" height="40px"/>
+				<IMG style="position:absolute;top:240px;right:30px"SRC="resources/brick.jpg" title="brick" alt="brick" width="40px" height="40px"/>
+				<IMG style="position:absolute;top:200px;right:70px"SRC="resources/brick.jpg" title="brick" alt="brick" width="40px" height="40px"/>
+				<IMG style="position:absolute;top:240px;right:70px"SRC="resources/brick.jpg" title="brick" alt="brick" width="40px" height="40px"/>
 			</DIV>
 			<DIV ID="Content">
-				<IMG style="position:absolute;top:200px;left:30%"SRC="resources/cluster.jpg" width="600px"/>
+				<map name="map_example">
+					<area href="https://www.ikea.com" title="ikea site" alt="ikea" target="_blank" shape=poly coords="355,343, 489,388, 511,574, 347,552">
+					<area href="https://www.apple.com" title="apple store" alt="apple" target="_blank" shape=poly coords="831,333, 1029,354, 1024,484, 838,451">
+				</map>
+				<IMG style="position:absolute;top:20px;left:20px"SRC="resources/cluster.jpg" title="cluster" alt="cluster" width="1080px" height="630px"  usemap="#map_example">
 			</DIV>
 			<DIV ID="PopUp">
-				<P>
-					Vous <B>entrez</B> alors ...
+				<P style="position:absolute;top:-15px;left:20px">
+					Vous <SPAN class="Entrez"><FONT font size="+5">entrez</FONT></SPAN> alors dans une grande piece remplie<BR />
+					d'<SPAN ID="Shadow">ordinateurs</SPAN>...<BR />
+					- <I>Bonjour,vous &ecirc;tes nouvea ici ?</I>
+					<BR />
+					<INPUT size="55"/>
+					<BUTTON>
+						Respondre
+					</BUTTON>
 				</P>
 			</DIV>
 		</DIV>
+
 	</BODY>
 </HTML>
